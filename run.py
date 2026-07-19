@@ -1,1 +1,3 @@
 import e
+
+e.main()
