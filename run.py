@@ -1,3 +1,2 @@
 import e
-
-e.main()
+print(dir(e))
