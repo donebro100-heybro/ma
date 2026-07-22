@@ -1,1 +1,12 @@
 
+{
+  "status": "ON",
+  "users": {
+    "DONE-YOUR_HWID_1": {
+      "expiry": "2026-12-31"
+    },
+    "DONE-YOUR_HWID_2": {
+      "expiry": "2027-01-01"
+    }
+  }
+}
