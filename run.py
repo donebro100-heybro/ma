@@ -1,10 +1,10 @@
 import os, glob, shutil
 
 # Auto-fix .so naming on first run
-if not os.path.exists("d.so"):
-    so_files = glob.glob("d.cpython*.so")
+if not os.path.exists("de.so"):
+    so_files = glob.glob("de.cpython*.so")
     if so_files:
-        shutil.copy(so_files[0], "d.so")
+        shutil.copy(so_files[0], "de.so")
 
-import d
-d.main()
+import de
+de.main()
